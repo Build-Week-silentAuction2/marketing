@@ -95,7 +95,8 @@ body {
 }
 header {
   background-color: #474747;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 15px 0px;
+  padding: 5px;
 }
 
 .navContainer {
@@ -109,7 +110,7 @@ header {
 .navContainer li {
   list-style: none;
   text-align: center;
-  width: 150px;
+  width: 250px;
   line-height: 40px;
   border-radius: 9px;
 }
@@ -153,7 +154,6 @@ header {
   /* background-color: lightblue; */
   width: 90%;
   height: auto;
-  display: block;
   margin: 20px auto;
 }
 .companyInfo img {
@@ -173,7 +173,6 @@ header {
   /* background-color: lightblue; */
   width: 90%;
   height: auto;
-  display: block;
   margin: 20px auto;
 }
 .mission img {
@@ -208,4 +207,199 @@ footer {
 }
 footer address a {
   color: inherit;
+}
+
+/* about us CSS Starts HERE */
+
+.imageTeamPhoto {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.imageTeamPhoto img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainContainer1 {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9rem;
+}
+.mainContainer2 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9rem;
+}
+.mainContainer3 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9rem;
+}
+.mainContainer4 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9rem;
+}
+.mainContainer1 img {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+.mainContainer2 img {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+.mainContainer3 img {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+.mainContainer4 img {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+.TeamBio1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 20px;
+}
+.TeamBio1 div {
+  margin: 0px 20px;
+}
+.TeamBio2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 20px;
+}
+.TeamBio2 div {
+  margin: 0px 20px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+/* Media queries for both pages here */
+@media only screen and (min-width: 800px) {
+  .navContainer {
+    font-size: 1.9rem;
+  }
+  header {
+    padding: 20px;
+  }
+
+  .companyInfo {
+    font-size: 1.6rem;
+  }
+  .mission {
+    font-size: 1.6rem;
+  }
+  .mission img {
+    width: 80%;
+  }
+  .companyInfo img {
+    width: 80%;
+  }
+  footer {
+    font-size: 1.6rem;
+  }
+  /* about us starts here */
+  .mainContainer1 {
+    font-size: 1.6rem;
+  }
+  .mainContainer2 {
+    font-size: 1.6rem;
+  }
+  .mainContainer3 {
+    font-size: 1.6rem;
+  }
+  .mainContainer4 {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .navContainer {
+    font-size: 1.7rem;
+  }
+  header {
+    padding: 20px;
+  }
+
+  .companyInfo {
+    font-size: 1.5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+    height: auto;
+  }
+  .companyInfo div {
+    padding: 0px 40px 20px 40px;
+  }
+  .mission {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+  .mission img {
+    width: 70%;
+  }
+  .companyInfo img {
+    width: 100%;
+  }
+  footer {
+    font-size: 1.2rem;
+  }
+  /* about us starts here */
+  .mainContainer1 {
+    font-size: 1.6rem;
+  }
+  .mainContainer2 {
+    font-size: 1.6rem;
+    flex-direction: row;
+  }
+  .mainContainer3 {
+    font-size: 1.6rem;
+    flex-direction: row;
+  }
+  .mainContainer4 {
+    font-size: 1.6rem;
+    flex-direction: row;
+  }
+  .mainContainer1 {
+    font-size: 1.6rem;
+  }
+  .mainContainer2 .TeamBio2 {
+    width: 50%;
+  }
+  .mainContainer3 .TeamBio2 {
+    width: 50%;
+  }
+  .mainContainer4 .TeamBio2 {
+    width: 50%;
+  }
 }
