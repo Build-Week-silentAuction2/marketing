@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <nav>
-        <ul>
+        <ul class="navContainer">
           <li><a href="./index.html">Home</a></li>
           <li><a href="#">Meet the Team</a></li>
           <li><a href="#">Get Started</a></li>
@@ -94,10 +98,14 @@
 
     <footer>
       <address>
-        Contact us at
-        <a href="mailto:thisemail@example.com">thisemail@example.com</a>. <br />
-        250 Montgomery St, <br />
-        San Francisco, CA 94104 <br />
+        <ul class="footerContainer">
+          <li id="thingOne">
+            Contact us at
+            <a href="mailto:thisemail@example.com">thisemail@example.com</a>
+          </li>
+          <li id="thingTwo">250 Montgomery St,</li>
+          <li id="thingThree">San Francisco, CA 94104</li>
+        </ul>
       </address>
     </footer>
   </body>

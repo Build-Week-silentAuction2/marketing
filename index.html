@@ -2,57 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
   </head>
   <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="./aboutus.html">Meet the Team</a></li>
-                <li><a href="#">Get Started</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="navContainer">
+          <li><a href="#">Home</a></li>
+          <li><a href="./aboutus.html">Meet the Team</a></li>
+          <li>
+            <a href="https://front-end-three-nu.vercel.app/">Get Started</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section  class = "imageSection">
-        <img src="images/auction1.jpg" alt="Stock photo of an auction sign.">
-    </section>
 
-    <section class = "companyInfo">
-        <div id = "infoOne">
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                assumenda rerum dolore recusandae, vero pariatur eveniet veritatis, 
-                nobis soluta perspiciatis ullam explicabo possimus aliquid distinctio 
-                placeat mollitia alias facere. Reiciendis?
-            </p>
-            <div id = "infoTwo">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                    assumenda rerum dolore recusandae, vero pariatur eveniet veritatis, 
-                    nobis soluta perspiciatis ullam explicabo possimus aliquid distinctio 
-                    placeat mollitia alias facere. Reiciendis?
-                </p>
+    <main>
+      <section class="imageSection">
+        <img src="images/auction1.jpg" alt="Stock photo of an auction sign." />
+      </section>
+
+      <section class="companyInfo">
+        <div id="infoOne">
+          <img src="images/pic2.jpg" alt="Stock photo of an auction sign." />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+            assumenda rerum dolore recusandae, vero pariatur eveniet veritatis,
+            nobis soluta perspiciatis ullam explicabo possimus aliquid
+            distinctio placeat mollitia alias facere. Reiciendis?
+          </p>
         </div>
-    </section>
-    <section class = "mission">
+        <div id="infoTwo">
+          <img src="images/pic3.jpg" alt="Stock photo of an auction sign." />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+            assumenda rerum dolore recusandae, vero pariatur eveniet veritatis,
+            nobis soluta perspiciatis ullam explicabo possimus aliquid
+            distinctio placeat mollitia alias facere. Reiciendis?
+          </p>
+        </div>
+      </section>
+      <section class="mission">
         <div>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                assumenda rerum dolore recusandae, vero pariatur eveniet veritatis, 
-                nobis soluta perspiciatis ullam explicabo possimus aliquid distinctio 
-                placeat mollitia alias facere. Reiciendis?
-            </p>
+          <img src="images/pic1.jpg" alt="Stock photo of an auction sign." />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+            assumenda rerum dolore recusandae, vero pariatur eveniet veritatis,
+            nobis soluta perspiciatis ullam explicabo possimus aliquid
+            distinctio placeat mollitia alias facere. Reiciendis?
+          </p>
         </div>
-    </section>
+      </section>
+    </main>
+
     <footer>
-        <address>
-            Contact us at <a href="mailto:thisemail@example.com">thisemail@example.com</a>. <br>
-            250 Montgomery St, <br>
-            San Francisco, CA 94104 <br>
-        </address>            
+      <address>
+        <ul class="footerContainer">
+          <li id="thingOne">
+            Contact us at
+            <a href="mailto:thisemail@example.com">thisemail@example.com</a>
+          </li>
+          <li id="thingTwo">250 Montgomery St,</li>
+          <li id="thingThree">San Francisco, CA 94104</li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>
