@@ -1,3 +1,211 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 body {
-  background-color: aqua;
+  font-size: 62.5%;
+  background-color: #ededed;
+  font-family: "Alegreya Sans", sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+header {
+  background-color: #474747;
+  margin: 0px 0px 10px 0px;
+}
+
+.navContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.3rem;
+}
+
+.navContainer li {
+  list-style: none;
+  text-align: center;
+  width: 150px;
+  line-height: 40px;
+  border-radius: 9px;
+}
+.navContainer li:hover {
+  text-decoration: none;
+  color: #000000;
+}
+.navContainer li a:hover {
+  text-decoration: none;
+  color: white;
+}
+.navContainer li a {
+  text-decoration: none;
+  color: #cfcfcf;
+  display: block;
+  align-items: center;
+}
+
+.imageSection {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.imageSection img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.companyInfo {
+  text-align: center;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: lightblue; */
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+.companyInfo img {
+  width: 50%;
+  height: auto;
+}
+
+.companyInfo #infoOne {
+  margin: 0px 0px 15px 0px;
+}
+
+.mission {
+  text-align: center;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: lightblue; */
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+.mission img {
+  width: 50%;
+  height: auto;
+}
+
+footer {
+  background-color: #474747;
+  font-size: 0.9rem;
+  color: #cfcfcf;
+  position: absolute;
+  width: 100%;
+}
+.footerContainer {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.footerContainer #thingOne {
+  margin: 15px auto;
+}
+.footerContainer #thingTwo {
+  margin: 0px auto;
+}
+.footerContainer #thingThree {
+  margin: 0px auto 15px;
+}
+footer address a {
+  color: inherit;
 }
