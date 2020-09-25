@@ -147,6 +147,7 @@ header {
 }
 
 .companyInfo {
+
   text-align: center;
   font-size: 0.9rem;
   display: flex;
@@ -352,7 +353,7 @@ footer {
   }
 
   .companyInfo {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 70%;
@@ -362,7 +363,7 @@ footer {
     padding: 0px 40px 20px 40px;
   }
   .mission {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     width: 70%;
   }
   .mission img {
@@ -376,22 +377,22 @@ footer {
   }
   /* about us starts here */
   .mainContainer1 {
-    font-size: 1.6rem;
+      width: 60%;
   }
   .mainContainer2 {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     flex-direction: row;
   }
   .mainContainer3 {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     flex-direction: row;
   }
   .mainContainer4 {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     flex-direction: row;
   }
   .mainContainer1 {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
   }
   .mainContainer2 .TeamBio2 {
     width: 50%;
